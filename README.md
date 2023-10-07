@@ -12,3 +12,15 @@
   * ~Icons( Examples: Navigation Buttons, Loading Screens, etc )~
   
 > You could add more such as background images, etc but for now this is just the basic/standard layout workflow if everyone agrees
+
+```
+Remember to:
+git pull
+BEFORE
+git push
+______________________________________________
+After every review and merge with main branch:
+git pull
+BEFORE you send your pull-request (one pull request at the time), to avoid merge-conficts.
+```
+
