@@ -1,0 +1,30 @@
+.shipping img {
+    width: 50px;
+    height: 50px;
+  }  
+  .shipping h2 {
+    margin: 0%;
+  }
+  .shipping p{
+    position: bottom;
+  }
+  .payment-info img {
+    width: 60px;
+    height: 60px;
+  }  
+  .payment-info h2 {
+    margin: 0%;
+  }
+  .payment-info p{
+    position: bottom;
+  }
+  .order-total img {
+    width: 35px;
+    height: 35px;
+  }  
+  .order-total h2 {
+    margin: 0%;
+  }
+  .order-total p{
+    position: bottom;
+  }

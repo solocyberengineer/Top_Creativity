@@ -4,27 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout Page</title>
+    <link rel="stylesheet" type="text/css" href="../css_files/checkout.css">
 </head>
 <body>
     <header>
-        <h1>Checkout</h1>
-        <img src="images/shopping cart.jpg" alt="shopping cart">
-        <style>
+        <!--I kept the header styling consistent with the home page-->
+        <link rel="stylesheet" href="checkout.css">
+        <nav style="width:100%;">
+            <div style='background: linear-gradient(to right, pink, purple); width: 100vw;display: inline-flex;'>
+                <h1 style='color: white;font-size: 40px;width: 86%;padding:10px;'>Checkout</h1>
+          <img src="../images/shopping cart.jpg" alt="shopping cart">
+            </div>
+        <style> 
             img {
-             max-width: 5%;
+             max-width: 10%;
              height: auto;
             }
         </style>
     </header>
     <hr>
-    <main>
-        <h2>Shipping Details</h2>
-        <p>Billing Address:</p>
-        <h2>Payment Information</h2>
-        <p>Card Number:</p>
-        <p>expiration date:</p>
-        <p>CVV:</p>
-        <h2>Order Total</h2>
-    </main>
+            <div class="shipping">
+                <img src="../images/shipping truck.png" alt="shipping truck"> 
+                <h2>Shipping Details</h2> 
+                <p>Billing Address:</p>
+              </div>
+
+              <div class="payment-info">
+                <img src="../images/payment-method.png" alt="payment method">
+                <h2>Payment Information</h2>
+                <p>Card Number:</p>
+                <p>Expiration Date:</p>
+                <p>CVV:</p>
+              </div>
+
+              <div class="order-total">
+                <h2>Order Total</h2>
+                <img src="../images/check.png" alt="order-total">
+              </div>
+    <footer></footer>
 </body>
 </html>
