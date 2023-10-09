@@ -1,0 +1,26 @@
+body {
+    background-image:url(../images/teddybear.jpg);
+}
+
+.title {
+    color: #DECFBD;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 1);
+    font-size: 40px;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background: transparent;
+    padding: 10px;
+    transition: ease 0.2s background,
+                ease 0.2s color;
+}
+
+button:hover {
+    background: #DECFBD;
+    color: white;
+    border: 1px solid #DECFBD;
+}
