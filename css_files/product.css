@@ -1,0 +1,43 @@
+body {
+    background-color: #DECFBD;
+}
+
+*{
+ padding:0;
+ margin:0;
+ box-sizing: border-box;
+}
+body{
+ font-family:'Noto sans',sans-serif;
+ 
+}
+/*utility stylings */
+img{
+ width: 35vw;
+ display: block;
+}
+.container{
+ width: 88vw;
+ margin: 0 auto;
+}
+.lg-title
+.md-title
+.sd-title{
+ font-family: 'Roboto',sans-serif;
+ padding: 0.Grem 0;
+ text-transform: uppercase;
+}
+
+header{
+      height: 100vh;
+      background:#DECFBD;
+      position:relative;
+      overflow: hidden;
+      color:brown;
+}
+
+
+
+
+          
+
