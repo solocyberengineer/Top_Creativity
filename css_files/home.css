@@ -1,26 +1,19 @@
 body {
-    background-image:url(../images/teddybear.jpg);
+    background: linear-gradient( to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.8) ), url(../images/teddybear.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* for now */
+    height: 100vh; 
 }
 
 .title {
+    /* position: fixed; */
+    /* width: 100%; */
     color: #DECFBD;
-    text-shadow: 1px 1px 1px rgba(0,0,0, 1);
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    /* text-shadow: 1px 1px 1px rgba(0,0,0, 1); */
     font-size: 40px;
-}
-
-button {
-    border: 1px solid black;
-    border-radius: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    background: transparent;
     padding: 10px;
-    transition: ease 0.2s background,
-                ease 0.2s color;
-}
-
-button:hover {
-    background: #DECFBD;
-    color: white;
-    border: 1px solid #DECFBD;
 }
