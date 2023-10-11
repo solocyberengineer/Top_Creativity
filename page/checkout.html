@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout Page</title>
-    <!-- <link rel="stylesheet" type="text/css" href="../css_files/main.css"> -->
+    <link rel="stylesheet" type="text/css" href="../css_files/main.css">
     <link rel="stylesheet" type="text/css" href="../css_files/checkout.css">
     <!-- <link rel="stylesheet" type="text/css" href="../css_files/checkout.css"> -->
 </head>
 <body>
     <header>
         <!--I kept the header styling consistent with the home page-->
-        
-        <nav style="width:100%;">
-            <div style='background: linear-gradient(to right, pink, purple); width: 100vw;display: inline-flex;'>
-                <h1 style='color: white;font-size: 40px;width: 86%;padding:10px;'>Checkout</h1>
-          <img src="../images/shopping-cart.png" alt="shopping cart">
-            </div>
-        
+        <nav id="navigation_bar">
+            <ul>
+                <li><button onclick="window.location.href='./home.html'"><img src="../images/home.png" />Home</button></li>
+                <li><button onclick="window.location.href='./about.html'"><img src="../images/info.png" />About</button></li>
+                <li><button onclick="window.location.href='./product.html'"><img src="../images/shopping-cart.png" />Product</button></li>
+                <li><button onclick="window.location.href='./checkout.html'"><img src="../images/check.png" />Checkout</button></li>
+                <li><button onclick="window.location.href='./contact.html'"><img src="../images/contact-mail.png" />Contact</button></li>
+            </ul>
+        </nav>
+        <div style='background: linear-gradient(to right, pink, purple); width: 100vw;display: inline-flex;'>
+            <h1 style='color: white;font-size: 40px;width: 86%;padding:10px;'>Checkout</h1>
+            <img src="../images/shopping-cart.png" alt="shopping cart">
+        </div>
         <style> 
             img {
              max-width: 10%;
@@ -26,24 +32,22 @@
         </style>
     </header>
     <hr>
-            <div class="shipping">
-                <img src="../images/shipping truck.png" alt="shipping truck"> 
-                <h2>Shipping Details</h2> 
-                <p>Billing Address:</p>
-              </div>
-
-              <div class="payment-info">
-                <img src="../images/payment-method.png" alt="payment method">
-                <h2>Payment Information</h2>
-                <p>Card Number:</p>
-                <p>Expiration Date:</p>
-                <p>CVV:</p>
-              </div>
-
-              <div class="order-total">
-                <h2>Order Total</h2>
-                <img src="../images/check.png" alt="order-total">
-              </div>
+    <div class="shipping">
+        <img src="../images/shipping truck.png" alt="shipping truck"> 
+        <h2>Shipping Details</h2> 
+        <p>Billing Address:</p>
+    </div>
+    <div class="payment-info">
+        <img src="../images/payment-method.png" alt="payment method">
+        <h2>Payment Information</h2>
+        <p>Card Number:</p>
+        <p>Expiration Date:</p>
+        <p>CVV:</p>
+    </div>
+    <div class="order-total">
+        <h2>Order Total</h2>
+        <img src="../images/check.png" alt="order-total">
+    </div>
     <footer></footer>
 </body>
 </html>
